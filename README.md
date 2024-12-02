@@ -49,8 +49,10 @@ SOFTWARE.
 ## Impact
 
 ## Links
-links of where to go to get more information (other papers, models, blog posts (e.g. papers with code))
-BARTpho: https://github.com/VinAIResearch/BARTpho
-viT5: https://github.com/vietai/ViT5/tree/main
-peft: https://huggingface.co/docs/peft/main/en/developer_guides/lora
-finetuning: https://medium.com/@shitalnandre108/fine-tuning-llama-2-large-language-model-with-custom-datasets-using-google-colab-a-comprehensive-a9d68faf3bc9
+https://github.com/VinAIResearch/BARTpho
+
+https://github.com/vietai/ViT5/tree/main
+
+https://huggingface.co/docs/peft/main/en/developer_guides/lora
+
+https://medium.com/@shitalnandre108/fine-tuning-llama-2-large-language-model-with-custom-datasets-using-google-colab-a-comprehensive-a9d68faf3bc9
