@@ -21,8 +21,13 @@ How the problem was addressed:
 
 This app serves as a helpful tool for prospective learners of the Vietnamese language, motivating them to read longer passages and latest news in topics that they may be interested in (instead of being lost in a maze of information). The users of the app also have the option to choose whether they want to see the english translation or not, so they can translate the summarized version on their own first before seeing the correct translation.
 
-uses, sources, 
+Uses: Vietnamese language news summarization and transaltion tool
 
+Sources:
+
+Tran, N. L., Le, D. M., & Nguyen, D. Q. (2021). BARTpho: Pre-trained Sequence-to-Sequence Models for Vietnamese. arXiv:2109.09701v3 .
+
+Phan, L., Tran, H., Nguyen, H., & Trinh, T. H. (2022). ViT5: Pretrained Text-to-Text Transformer for Vietnamese Language Generation. arXiv:2205.06457v2 [cs.CL].
 
 Permission (VinAI)
 
@@ -51,6 +56,9 @@ SOFTWARE.
 This tool shows further application of BARTpho in generative NLP tasks for Vietnamese. As a Vietnamese myself, this project was fun to work with and aimed to create a helpful tool for people to learn the language (like my husband or nephew).
 
 ## Links
+
+https://huggingface.co/vinai/bartpho-syllable
+
 https://github.com/VinAIResearch/BARTpho
 
 https://github.com/vietai/ViT5/tree/main
