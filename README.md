@@ -25,9 +25,9 @@ Uses: Vietnamese language news summarization and transaltion tool
 
 Sources:
 
-Tran, N. L., Le, D. M., & Nguyen, D. Q. (2021). BARTpho: Pre-trained Sequence-to-Sequence Models for Vietnamese. arXiv:2109.09701v3 .
+Tran, N. L., Le, D. M., & Nguyen, D. Q. (2021). BARTpho: Pre-trained Sequence-to-Sequence Models for Vietnamese. arXiv:2109.09701v3.
 
-Phan, L., Tran, H., Nguyen, H., & Trinh, T. H. (2022). ViT5: Pretrained Text-to-Text Transformer for Vietnamese Language Generation. arXiv:2205.06457v2 [cs.CL].
+Phan, L., Tran, H., Nguyen, H., & Trinh, T. H. (2022). ViT5: Pretrained Text-to-Text Transformer for Vietnamese Language Generation. arXiv:2205.06457v2.
 
 Permission (VinAI)
 
