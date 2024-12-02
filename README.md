@@ -21,9 +21,36 @@ How the problem was addressed:
 
 This app shows further application of BARTpho in generative NLP tasks for Vietnamese. It serves as a helpful tool for prospective learners of the Vietnamese language, motivating them to read longer passages and latest news in topics that they may be interested in (instead of being lost in a maze of information). The users of the app also have the option to choose whether they want to see the english translation or not, so they can translate the summarized version on their own first before seeing the correct translation.
 
-uses, sources, permissions
+uses, sources, 
+
+
+Permission (VinAI)
+
+Copyright (c) 2021 VinAI
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ## Impact
 
 ## Links
-links of where to go to get more information (other papers, models, blog posts (e.g. papers with code)
+links of where to go to get more information (other papers, models, blog posts (e.g. papers with code))
+BARTpho: https://github.com/VinAIResearch/BARTpho
+viT5: https://github.com/vietai/ViT5/tree/main
+peft: https://huggingface.co/docs/peft/main/en/developer_guides/lora
+finetuning: https://medium.com/@shitalnandre108/fine-tuning-llama-2-large-language-model-with-custom-datasets-using-google-colab-a-comprehensive-a9d68faf3bc9
