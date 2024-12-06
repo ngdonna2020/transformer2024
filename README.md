@@ -3,6 +3,12 @@
 December 2024 -
 Donna (Thuc Doan Nguyen)
 
+## Video Recording (2 parts)
+
+Please watch part 1 of recording here (This was created by Ai using transcript!): https://drive.google.com/file/d/1Jq8rnbv4FeaXqawzN3-JdQiS5vjnbFp8/view?usp=sharing
+
+Part 2: 
+
 ## Overview
 Context: using a pre-trained model for Vietnamese to finetune on news dataset.
 
@@ -15,7 +21,12 @@ Based on the seq2seq denoising autoencoder BART, BARTpho was recently introduced
  
 Approach:
 
-BARTpho was used as a strong baseline for research and applications of generative natural language processing (NLP) tasks for Vietnamese. It uses the "large" architecture and the pre-training scheme of the sequence-to-sequence denoising autoencoder BART, thus it is especially suitable for generative NLP tasks. I have tried some older Vietnamese NLP models but still found BARTpho performs best overall. Testing between the 2 versions of BARTpho, I chose BARTpho-syllable as it runs faster /fewer parameters (without sacrificing noticeable drop in performance). I finetuned the pretrained model using my vietnews dataset (list of Vietnamese news articles stored in .txt.seg files) and used peft library for LoRA configuration (which speeds up finetuning and uses less memory). I used GoogleTranslator for translation from Vietnamese to English and gradio to construct a simple interface for users to paste the news text and then receive the summary output along with its english translation.
+BARTpho was used as a strong baseline for research and applications of generative natural language processing (NLP) tasks for Vietnamese. It uses the "large" architecture and the pre-training scheme of the sequence-to-sequence denoising autoencoder BART, thus it is especially suitable for generative NLP tasks. I have tried some older Vietnamese NLP models but still found BARTpho performs best overall. Testing between the 2 versions of BARTpho, I chose BARTpho-syllable as it runs faster /fewer parameters (without sacrificing noticeable drop in performance).
+
+<img width="592" alt="image" src="https://github.com/user-attachments/assets/460ea446-89ce-4111-affe-90381dbd1d1c">
+
+
+I finetuned the pretrained model using my vietnews dataset (list of Vietnamese news articles stored in .txt.seg files) and used peft library for LoRA configuration (which speeds up finetuning and uses less memory). I used GoogleTranslator for translation from Vietnamese to English and gradio to construct a simple interface for users to paste the news text and then receive the summary output along with its english translation.
  
 How the problem was addressed:
 
