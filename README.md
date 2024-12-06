@@ -7,7 +7,7 @@ Donna (Thuc Doan Nguyen)
 
 Please watch part 1 of recording here (This was created by AI by uploading transcript!): https://drive.google.com/file/d/1Jq8rnbv4FeaXqawzN3-JdQiS5vjnbFp8/view?usp=sharing
 
-Part 2: https://drive.google.com/file/d/1Jq8rnbv4FeaXqawzN3-JdQiS5vjnbFp8/view?usp=sharing
+Part 2: [https://drive.google.com/file/d/1Jq8rnbv4FeaXqawzN3-JdQiS5vjnbFp8/view?usp=sharing](https://drive.google.com/file/d/1xsVGYMS60ASFN1n_HsBD7-1G7pWwW91G/view?usp=sharing)
 
 ## Overview
 Context: using a pre-trained model for Vietnamese to finetune on news dataset.
