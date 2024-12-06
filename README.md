@@ -5,7 +5,7 @@ Donna (Thuc Doan Nguyen)
 
 ## Video Recording (2 parts)
 
-Please watch part 1 of recording here (This was created by Ai using transcript!): https://drive.google.com/file/d/1Jq8rnbv4FeaXqawzN3-JdQiS5vjnbFp8/view?usp=sharing
+Please watch part 1 of recording here (This was created by AI by uploading transcript!): https://drive.google.com/file/d/1Jq8rnbv4FeaXqawzN3-JdQiS5vjnbFp8/view?usp=sharing
 
 Part 2: 
 
@@ -26,7 +26,10 @@ BARTpho was used as a strong baseline for research and applications of generativ
 <img width="592" alt="image" src="https://github.com/user-attachments/assets/460ea446-89ce-4111-affe-90381dbd1d1c">
 
 
-I finetuned the pretrained model using my vietnews dataset (list of Vietnamese news articles stored in .txt.seg files) and used peft library for LoRA configuration (which speeds up finetuning and uses less memory). I used GoogleTranslator for translation from Vietnamese to English and gradio to construct a simple interface for users to paste the news text and then receive the summary output along with its english translation.
+I finetuned the pretrained model using my vietnews dataset (list of Vietnamese news articles stored in .txt.seg files) and used peft library for LoRA configuration (which speeds up finetuning and uses less memory). I used GoogleTranslator for translation from Vietnamese to English and gradio to construct an interface for users to paste the news text and then receive the summary output along with its english translation.
+
+![image](https://github.com/user-attachments/assets/fde3d06b-5f8e-457a-87de-8bfab03eeb17)
+
  
 How the problem was addressed:
 
