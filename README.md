@@ -26,7 +26,7 @@ BARTpho was used as a strong baseline for research and applications of generativ
 <img width="592" alt="image" src="https://github.com/user-attachments/assets/460ea446-89ce-4111-affe-90381dbd1d1c">
 
 
-I finetuned the pretrained model using my vietnews dataset (list of Vietnamese news articles stored in .txt.seg files) and used peft library for LoRA configuration (which speeds up finetuning and uses less memory). I used GoogleTranslator for translation from Vietnamese to English and gradio to construct an interface for users to paste the news text and then receive the summary output along with its english translation.
+I finetuned the pretrained model using my vietnews dataset (list of Vietnamese news articles from "VNDS: A Vietnamese Dataset for Summarization") and used peft library for LoRA. I used GoogleTranslator for translation from Vietnamese to English and gradio to construct an interface for users to paste the news text and then receive the summary output along with its english translation.
 
 ![image](https://github.com/user-attachments/assets/fde3d06b-5f8e-457a-87de-8bfab03eeb17)
 
